@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site De Voyage</title>
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar début -->
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span>V</span>oyager</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index2.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#destination.html">Destination</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#circuit.html">Circuit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact.html">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-primary" type="button">Réserver</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar fin -->
+    
+    <!-- section accueil -->
+    <section class="accueil" id="accueil">
+        <div class="accueil-content">
+            <h4>Explore le monde</h4>
+            <h1>avec une nouvelle vocation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae repellendus nam, debitis eos laudantium quisquam. Ratione officia placeat eius incidunt?</p>
+            <button>Réserver</button>
+        </div>
+
+        <div class="img">
+            <img src="./img/book-img.png" alt="">
+        </div>
+    </section>
+
+    <!-- section offer -->
+     <section class="offers" id="offers">
+
+      <h3>Circuit</h3>
+      <div class="row">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <i class="fa-solid fa-earth-americas"></i>
+            <h5>Best Places</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, hic!</p>
+          </div>
+        </div>
+        
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <i class="fa-solid fa-plane-departure"></i>
+            <h5>Best Flights</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, hic!</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <i class="fa-solid fa-hotel"></i>
+            <h5>Best Hotels</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, hic!</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <i class="fa-solid fa-utensils"></i>
+            <h5>Frest Food</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, hic!</p>
+          </div>
+        </div>
+      </div>
+     </section>
+
+     <section class="popular" id="popular">
+      <h3>Popular Destination</h3>
+      <div class="row">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./img/Mexico.png" alt="">
+            <div class="card-img-overlay">
+              <h3 class="card-titel">Mexico</h3>
+              <h6>Mongole</h6>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./img/uk.png" alt="">
+            <div class="card-img-overlay">
+              <h3 class="card-titel">England</h3>
+              <h6>London</h6>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./img/us.png" alt="">
+            <div class="card-img-overlay">
+              <h3 class="card-titel">Amerique</h3>
+              <h6>USA Liberty</h6>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="./img/china.png" alt="">
+            <div class="card-img-overlay">
+              <h3 class="card-titel">china</h3>
+              <h6>Great wall of China</h6>
+            </div>
+          </div>
+        </div> 
+
+      </div>
+
+     </section>
+
+     <section class="about" id="about">
+      <div class="row">
+        <div class="col-md-5 py-3 py-md-0">
+          <div class="card">
+            <img src="/img/about-img.png" alt="">
+          </div>
+        </div>
+        
+        <div class="col-md-7 py-3 py-md-0">
+          <h5>About us</h5>
+          <h1>How this Travel Agency Work</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure facilis ipsam consectetur? Repellendus aliquid quos quod iste. Eum enim ex assumenda maxime harum? Incidunt veritatis quis hic ad saepe cum.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, pariatur laborum corporis assumenda suscipit fuga reiciendis sed ullam excepturi voluptas?</p>
+
+          <button class="about-btn">Read More...</button>
+        </div>
+      </div>
+     </section>
+
+     <section class="packages" id="packages">
+        <h1>Destination</h1>
+        <div class="row">
+
+          <div class="col-md-4 p-3 py-md-0">
+            <div class="card">
+              <img src="./img/united state.png" alt="">
+              <div class="card-body">
+                <h3>United State</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h5>$528 <span><button>Book</button></span></h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 p-3 py-md-0">
+            <div class="card">
+              <img src="./img/jordan.png" alt="">
+              <div class="card-body">
+                <h3>jordan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h5>$800 <span><button>Book</button></span></h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 p-3 py-md-0">
+            <div class="card">
+              <img src="./img/france.png" alt="">
+              <div class="card-body">
+                <h3>France</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h5>$700 <span><button>Book</button></span></h5>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-4 p-3 py-md-0">
+            <div class="card">
+              <img src="./img/Italy.png" alt="">
+              <div class="card-body">
+                <h3>Italy</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h5>$996 <span><button>Book</button></span></h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 p-3 py-md-0">
+            <div class="card">
+              <img src="./img/india.png" alt="">
+              <div class="card-body">
+                <h3>India</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h5>$666 <span><button>Book</button></span></h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 p-3 py-md-0">
+            <div class="card">
+              <img src="./img/pakistan.png" alt="">
+              <div class="card-body">
+                <h3>Pakistan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h5>$666 <span><button>Book</button></span></h5>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+     </section>
+
+
+     <section class="review" id="review">
+      <h3>Circuit</h3>
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <div class="card-body-overlay">
+              <img src="./img/pic-2.png" alt="">
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, veniam autem a totam quos magnam minus exercitationem quam nesciunt id.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <div class="card-body-overlay">
+              <img src="./img/pic-1.png" alt="">
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, veniam autem a totam quos magnam minus exercitationem quam nesciunt id.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <div class="card-body-overlay">
+              <img src="./img/pic-3.png" alt="">
+              <div class="star">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, veniam autem a totam quos magnam minus exercitationem quam nesciunt id.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+
+     <section class="contact" id="contact">
+      <div class="row">
+        <div class="col-md-5 py-3 py-md-0">
+          <h1>Contact</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, perferendis.</p>
+          <h5>Adress: Pakistan Sindh Karachi</h5>
+          <h5>Email:  exemple@gmail.com</h5>
+          <h5>Phone: +221506996610</h5>
+
+          <div class="social">
+            <h3>Social</h3>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-pinterest"></i>
+          </div>
+        </div>
+
+        <div class="col-md-7 py-3 py-md-0">
+          <h2>Book Now</h2>
+          <form action="#">
+            <div class="mb-3 mt-3">
+              <input type="text" class="form-control" placeholder="Enter Name" required>
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="email" class="form-control" placeholder="Enter email" required>
+            </div>
+            <div class="mb-3 mt-3">
+              <input type="number" class="form-control" placeholder="Phone number" required>
+            </div>
+            <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+
+          </form>
+        </div>
+      </div>
+     </section>
+
+
+     <footer id="footer">
+
+      <div class="row">
+        <div class="col-md-6">
+          <ul>
+            <h3>About us</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui nisi explicabo, fugiat velit voluptatem vel.</p>
+            <div class="social">
+              <h3>Social</h3>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-pinterest"></i>
+            </div>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <ul>
+            <h3>Userfull Link</h3>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Circuit</a></li>
+            <li><a href="#">Contact</a></li> 
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <ul>
+            <h3>Other Links</h3>
+            <li><a href="#">Web</a></li>
+            <li><a href="#">Java</a></li>
+            <li><a href="#">Phyton</a></li>
+            <li><a href="#">JS</a></li> 
+          </ul>
+        </div>
+
+        <hr>
+        <h5>Copyright &copy;2024 <a href="#">SA Coding</a>All Rights Reserved</h5>
+
+      </div>
+     </footer>
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
